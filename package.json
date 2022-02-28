@@ -1,0 +1,24 @@
+{
+  "name": "laughing-broccoli",
+  "version": "1.0.0",
+  "description": "AS A manager I WANT to generate a webpage that displays my team's basic info SO THAT I have quick access to their emails and GitHub profiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dokodesara/laughing-broccoli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dokodesara/laughing-broccoli/issues"
+  },
+  "homepage": "https://github.com/dokodesara/laughing-broccoli#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.5.1"
+  }
+}

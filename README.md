@@ -2,6 +2,8 @@
 
   # Team Profile Generator
 
+AS A manager I WANT to generate a webpage that displays my team's basic info SO THAT I have quick access to their emails and GitHub profiles
+
   https://github.com/dokodesara/laughing-broccoli
 
   # Description
@@ -36,7 +38,4 @@
    dokodesara at Github   
    dokodesara@gmail.com
 
-=======
-# Team Profile Generator
-AS A manager I WANT to generate a webpage that displays my team's basic info SO THAT I have quick access to their emails and GitHub profiles
->>>>>>> eeb0a4612d4ccf531238606f8958f16188b52ced
+

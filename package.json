@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/dokodesara/laughing-broccoli#readme",
   "dependencies": {
-    "inquirer": "^8.2.0",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
     "jest": "^27.5.1"
   }
 }

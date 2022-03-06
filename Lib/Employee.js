@@ -1,8 +1,8 @@
 class Employee {
-    constractor (name ,id ,email) {
-        this.name = Name;
-        this.id = Id;
-        this.email = Email;
+    constructor (name , id , email) {
+        this.name = name;
+        this.id = id;
+        this.email = email;
 
     }
     getName(){
@@ -19,11 +19,10 @@ class Employee {
     }
 }   
 
-module.export = Employee;
+module.exports = Employee;
     
         
         
         
 
     
-}

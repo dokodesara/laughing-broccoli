@@ -1,30 +1,30 @@
-const Intern = require('../lib/Intern');
-const intern = new Intern('joelle', '5768098', 'jdeschat@gmail.com', 'Toronto');
+const Employee = require('../Lib/Intern');
+const Intern = new Employee('desara', '23765', 'dokodesara@gmail.com', 'UNH');
 
-test('test if we can get the constructor values for the engineer object', () => {
-    expect(intern.name).toBe('desara');
-    expect(intern.id).toBe('23765');
-    expect(intern.email).toBe('dokodesara@gmail.com');
-    expect(intern.school).toBe('UNH');
+it('should test if we can get the constructor values for the engineer object', () => {
+    expect(Intern.name).toEqual('desara');
+    expect(Intern.id).toEqual('23765');
+    expect(Intern.email).toEqual('dokodesara@gmail.com');
+    expect(Intern.school).toEqual('UNH');
 });
 
-test('test if we can get the name from the getName() method', () => {
-    expect(intern.getName()).toBe('desara');
+it('should test if we can get the name from the getName() method', () => {
+    expect(Intern.getName()).toEqual('desara');
 });
 
-test('test if we can get the id from the getId() method', () => {
-    expect(intern.getId()).toBe('23765');
+it('should test if we can get the id from the getId() method', () => {
+    expect(Intern.getId()).toEqual('23765');
 });
 
-test('test if we can get the email from the getEmail() method', () => {
-    expect(intern.getEmail()).toBe('dokodesara@gmail.com');
+it('should test if we can get the email from the getEmail() method', () => {
+    expect(Intern.getEmail()).toEqual('dokodesara@gmail.com');
 });
 
-test('test if we can get the school name from the getSchool() method', () => {
-    expect(intern.getSchool()).toBe('UNH');
+it('should test if we can get the school name from the getSchool() method', () => {
+    expect(Intern.getSchool()).toEqual('UNH');
 });
 
-test('test if we can get the role from the getRole() method', () => {
-    expect(intern.getRole()).toBe('Intern');
+it('should test if we can get the role from the getRole() method', () => {
+    expect(Intern.getRole()).toEqual('Intern');
 });
 
